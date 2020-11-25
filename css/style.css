@@ -1,0 +1,121 @@
+/* Utility class */
+.bl-container-full{
+  width: 100%;
+}
+/* /Utility class */
+
+/* navbar style */
+.bl-navbar{
+  border: 0;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.bl-navbar .colored,.bl-navbar.navbar-default .navbar-nav>li>a{
+  color: #031C4E;
+  font-weight: bold;
+}
+.bl-navbar.navbar-default .navbar-nav>li>a,.bl-button a{
+  font-size: 14px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+.bl-navbar.navbar-default .navbar-toggle .icon-bar{
+  background-color: #3A8AFF;
+  width: 15px;
+}
+.bl-navbar.navbar-default .navbar-toggle{
+  border:none;
+}
+.navbar-brand img{
+  height: 25px;
+}
+.bl-button{
+  border:1px solid #3A8AFF;
+  position: relative;
+  top: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+.bl-button a{
+  color: #3A8AFF;
+  font-weight: bold;
+}
+.bl-nav-left{
+  padding-left: 40px;
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+ .navbar-toggle {
+   display: block !important;
+   position: absolute;
+   right: 0px;
+   }
+ #navbar{
+     display: none !important;
+   }
+}
+/* /navbar style */
+
+/* jumbotron style */
+.container-jumbotron{
+ background-image: url("../img/sfondo-pesci.svg");
+ background-size: cover;
+ background-position: center;
+}
+.bl-jumbotron{
+  padding: 70px 0px;
+}
+.bl-log-in{
+  width: 95%;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.bl-jumbotron .row div:nth-child(2){
+  position: relative;
+}
+.bl-form-container{
+ padding-top: 20px;
+}
+.bl-sing-in-btn{
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.form-group .bl-sing-in-btn:first-child{
+  background-color: #3A8AFF;
+  color: #fff;
+}
+.form-group .bl-sing-in-btn:last-child{
+  box-shadow: 1px 1px 1px #000;
+  color: #757575;
+  text-align: center;
+  position: relative;
+}
+.form-group .bl-sing-in-btn:last-child img{
+ height: 20px;
+ position: absolute;
+ left: 0px;
+}
+[class*="form-control"]::placeholder{
+  color:#757575;
+  font-size: 20px;
+}
+.bl-form-container [class*="form-control"]{
+  height: 40px;
+  font-size: 20px;
+}
+.bl-log-in h2{
+  padding-top: 20px;
+  color: #031C4E;
+  font-weight: bold;
+}
+.bl-log-in span:first-of-type{
+  font-size: 30px;
+  color: #3A8AFF;
+  font-weight: bold;
+}
+.googlesingin{
+  height: 20px;
+}
+/* /jumbotron style */
