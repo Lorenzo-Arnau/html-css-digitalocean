@@ -30,14 +30,14 @@
   height: 25px;
 }
 .bl-button{
-  border:1px solid #3A8AFF;
+  border:1px solid #006AFF;
   position: relative;
   top: 10px;
   padding: 3px 8px;
   border-radius: 10px;
 }
 .bl-button a{
-  color: #3A8AFF;
+  color: #006AFF;
   font-weight: bold;
 }
 .bl-nav-left{
@@ -120,9 +120,9 @@
   color: #031C4E;
   font-weight: bold;
 }
-.bl-log-in span:first-child{
+.bl-subtitle{
   font-size: 30px;
-  color: #3A8AFF;
+  color: #006AFF;
   font-weight: bold;
 }
 .bl-terms{
@@ -130,9 +130,7 @@
   color: #031C4E;
   font-size: 10px;
 }
-.googlesingin{
-  height: 20px;
-}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .bl-jumbotron h1{
     font-size: 30px;
@@ -142,3 +140,27 @@
   }
 }
 /* /jumbotron style */
+
+/* Sponsor section style */
+ .bl-sponsor-container{
+  background-color: #eee;
+  text-align: center;
+ }
+ .bl-sponsor-container img{
+   width: 150px;
+   vertical-align: middle;
+   padding: 10px 0px;
+ }
+ .bl-sponsor-container h4{
+  padding: 50px 0px;
+  color: #7C879F;
+ }
+ .bl-sponsor-container .row:last-child div{
+  padding: 40px 0px;
+ }
+ .bl-sponsor-container .row:last-child a{
+  font-size: 18px;
+  color: #006AFF;
+  font-weight: bold;
+ }
+/* /Sponsor section style */
