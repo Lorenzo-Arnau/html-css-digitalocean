@@ -64,6 +64,16 @@
 .bl-jumbotron{
   padding: 70px 0px;
 }
+.bl-jumbotron h1{
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+}
+.bl-jumbotron p{
+  font-size: 25px;
+  color: #bbcdff;
+  font-weight: bold;
+}
 .bl-log-in{
   width: 95%;
   background-color: #fff;
@@ -110,12 +120,25 @@
   color: #031C4E;
   font-weight: bold;
 }
-.bl-log-in span:first-of-type{
+.bl-log-in span:first-child{
   font-size: 30px;
   color: #3A8AFF;
   font-weight: bold;
 }
+.bl-terms{
+  line-height: 40px;
+  color: #031C4E;
+  font-size: 10px;
+}
 .googlesingin{
   height: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .bl-jumbotron h1{
+    font-size: 30px;
+  }
+  .bl-jumbotron p{
+    font-size: 17px;
+  }
 }
 /* /jumbotron style */
