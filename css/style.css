@@ -314,6 +314,9 @@ margin-top:70px;
  line-height: 400px;
  color: #031C4E;
 }
+.skip-button:hover{
+ color:  #006AFF;
+}
 .right {
  text-align: right;
 }
@@ -351,6 +354,22 @@ div.bl-spot{
 .bl-head-carousel{
   background-color: #eee;
 }
+.pre-footer{
+  background-color: #015BFF;
+  text-align: center;
+}
+.pre-footer h2{
+  color: #fff;
+  font-weight: bold;
+  padding-top: 40px;
+  margin-top: 0;
+}
+.pre-footer a{
+  color: #015BFF;
+  background-color: #fff;
+  margin-bottom: 30px
+}
+
 /* SECONDO CAROUSEL */
 @media and (min-width: 769px){
 
@@ -377,3 +396,24 @@ div.bl-spot{
   }
 }
 /* /main section */
+/* FOOTER SECTION */
+footer{
+  background-color:#031C4E;
+}
+.footer-sec ul li{
+  list-style: none;
+  font-size: 12px;
+  padding: 5px 0px;
+  color: #ccc;
+}
+.footer-sec i{
+  font-size: 18px;
+  padding:0px 5px;
+}
+.footer-sec ul li.frst-of-row{
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+}
+/* FOOTER SECTION */
