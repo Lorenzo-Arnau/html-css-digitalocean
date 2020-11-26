@@ -187,7 +187,7 @@
 }
 .bl-sector{
   height: 200px;
-  margin: 30px 0px;
+  margin-top: 30px;
 }
 .bl-sector-container ul{
   padding: 10px 25px 10px 2px;
@@ -195,9 +195,6 @@
   border-left: 2px solid #CCCCCC;
   text-align: right;
   margin-bottom: 50px;
-}
-.bl-sector-container{
-  margin-right: 0;
 }
 .bl-sector-container ul li{
   padding: 5px 0px;
@@ -232,7 +229,7 @@
  text-align: center;
 }
 .bl-carousel-container img{
- height: 400px;
+height: 500px;
 }
 .bl-carousel-container i{
   font-size: 60px;
