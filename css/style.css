@@ -2,6 +2,15 @@
 .bl-container-full{
   width: 100%;
 }
+.bl-container-centred{
+  width: 80%;
+  margin: auto;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* /Utility class */
 
 /* navbar style */
@@ -187,7 +196,7 @@
 }
 .bl-sector{
   height: 200px;
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 .bl-sector-container ul{
   padding: 10px 25px 10px 2px;
@@ -299,8 +308,49 @@ margin-top:70px;
 /* TABELLE sec */
 
 /* SECONDO CAROUSEL */
-
-
+.skip-button{
+ float: left;
+ width: 15%;
+ line-height: 400px;
+ color: #031C4E;
+}
+.right {
+ text-align: right;
+}
+.bl-center-content{
+  float: left;
+  background-color: #fff;
+  padding: 50px 0px;
+  text-align: center;
+  width: 70%;
+}
+.second-carousel{
+  background-color: #eee;
+}
+.bl-center-content h5:first-of-type{
+  color:#031C4E;
+}
+.bl-center-content h4{
+  color:#75809A;
+}
+.bl-center-content span a{
+  color:#006AFF;
+}
+div.bl-spot{
+  width: 80px;
+  margin: auto;
+}
+.skip-button{
+  font-size: 55px;
+  font-weight: bold;
+}
+.bl-center-content img{
+  height: 50px;
+  margin-bottom: 20px;
+}
+.bl-head-carousel{
+  background-color: #eee;
+}
 /* SECONDO CAROUSEL */
 @media and (min-width: 769px){
 
@@ -321,6 +371,9 @@ margin-top:70px;
   }
   .bl-carousel-container i{
     font-size: 50px;
+  }
+  .bl-center-content img{
+    height: 20px;
   }
 }
 /* /main section */
