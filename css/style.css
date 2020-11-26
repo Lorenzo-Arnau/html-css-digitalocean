@@ -212,6 +212,11 @@
   font-weight: 500;
   font-size: 16px;
 }
+.bl-sector span a{
+  color: #006AFF;
+  font-weight: 600;
+  font-size: 16px;
+}
 .bl-main-design{
   margin-top: 30px;
 }
@@ -229,6 +234,7 @@ height: 500px;
 .bl-carousel-container i{
   font-size: 60px;
   color: #031C4E;
+  font-weight: bold;
 }
 .bl-carousel-container i:hover{
   color: #006AFF;
@@ -243,6 +249,54 @@ height: 500px;
 .bl-design-sec h4{
   color: #031C4E;
 }
+/* TABELLE sec */
+.bl-table-container{
+  background-image: url("../img/bg-map.svg");
+  background-color: #031C4E;
+  background-position: center;
+  background-size: contain;
+}
+.bl-table-container .row .col-xs-12 ul li:first-child{
+  color: #fff;
+  font-weight: 600;
+}
+.bl-table-container .row .col-xs-12 ul li:nth-child(2){
+  color: #eee;
+  margin-left: 50px;
+}
+.bl-table-container .row .col-xs-12 ul:last-child{
+  border-bottom: none
+}
+
+.bl-table-container ul li{
+  display: inline-block;
+}
+.bl-table-container ul{
+  border-bottom: 1px solid #fff;
+  padding: 10px 0px 15px 0px;
+}
+.tabl-link{
+  float: right;
+}
+.tabl-link a{
+  color: #1abc9c;
+}
+.bl-table-sec{
+text-align: center;
+margin-top:70px;
+}
+.bl-header-container{
+  background-color: #031C4E;
+  width: 100%;
+  padding: 25px 0px;
+  text-align: center;
+  color: #fff;
+}
+.bl-header-container h1{
+  margin: 0px;
+  font-size: 30px;
+}
+/* TABELLE sec */
 @media (min-width: 320px) and (max-width: 480px) {
 
   .bl-carousel-container img{
