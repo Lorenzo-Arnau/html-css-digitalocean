@@ -187,12 +187,14 @@
 }
 .bl-sector{
   height: 200px;
+  margin-top: 10px;
 }
 .bl-sector-container ul{
   padding: 10px 25px 10px 2px;
   width: 100px;
   border-left: 2px solid #CCCCCC;
   text-align: right;
+  margin-bottom: 50px;
 }
 .bl-sector-container ul li{
   padding: 5px 0px;
@@ -209,5 +211,59 @@
   color: #75809A;
   font-weight: 500;
   font-size: 16px;
+}
+.bl-main-design{
+  margin-top: 30px;
+}
+.bl-design-sec{
+  background-color: #eee;
+  text-align: center;
+}
+.bl-carousel-container{
+ margin:0 auto;
+ text-align: center;
+}
+.bl-carousel-container img{
+height: 500px;
+}
+.bl-carousel-container i{
+  font-size: 60px;
+  color: #031C4E;
+}
+.bl-carousel-container i:hover{
+  color: #006AFF;
+}
+.bl-spot i{
+  color: #006AFF;
+}
+.bl-spot i:hover{
+  background-color: #006AFF;
+  border-radius: 50%;
+}
+.bl-design-sec h4{
+  color: #031C4E;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .bl-carousel-container img{
+  height: 200px;
+  }
+  .bl-carousel-container i{
+    font-size: 50px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .bl-carousel-container img{
+  height: 400px;
+  }
+
+}
+@media and (min-width: 769px){
+
+  .bl-carousel-container img{
+  height: 500px;
+  }
+
 }
 /* /main section */
