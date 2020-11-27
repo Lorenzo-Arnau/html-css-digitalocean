@@ -239,9 +239,8 @@ height: 500px;
   display:none
 }
 .bl-spot i:hover:before {
-  content:"\2022";
-  height: 50px;
-  font-size: 50px;
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f111";
 }
 /* TABELLE sec */
 .bl-table-container{
@@ -365,6 +364,7 @@ padding-bottom: 20px;
 }
 footer{
   background-color:#031C4E;
+  position: relative;
 }
 .footer-sec ul li{
   list-style: none;
@@ -381,5 +381,26 @@ footer{
   color: #fff;
   margin-top: 20px;
   font-size: 14px;
+}
+.fish-helper{
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+}
+.fish-helper i{
+font-size: 40px;
+position: relative;
+right: 8px;
+top: 15px;
+color: #fff;
+}
+.fish-img{
+  vertical-align: middle;
+}
+.fish-say{
+  background-color: #fff;
+  padding: 20px 2px 20px 20px;
+  border-radius: 10px;
+  display: inline-block;
 }
 /* FOOTER SECTION */
