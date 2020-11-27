@@ -83,7 +83,10 @@
  background-position: center;
 }
 .bl-jumbotron{
-  padding: 70px inherit;
+  padding-top: 70px;
+  padding-left: inherit;
+  padding-right: inherit;
+  padding-bottom: 70px;
 }
 .bl-jumbotron h1{
   font-size: 60px;
@@ -322,7 +325,7 @@ padding-bottom: 20px;
   background-image: none;
 }
 /* SECONDO CAROUSEL */
-@media and (min-width: 769px){
+@media (min-width: 769px) and (max-width: 1024px){
 
   .bl-carousel-container img{
     height: 500px;
@@ -421,3 +424,6 @@ color: #fff;
   }
 }
 /* FOOTER SECTION */
+
+/* <!-- END VERSION CHECKED -->
+<!-- =^-^= --> */
