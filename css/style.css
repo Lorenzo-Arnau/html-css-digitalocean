@@ -156,7 +156,7 @@
 
 /* Sponsor section style */
  .bl-sponsor-container{
-  background-color: #eee;
+  background-color: #F3F5F9;
   text-align: center;
  }
  .bl-sponsor-container img{
@@ -217,7 +217,7 @@
   margin-top: 30px;
 }
 .bl-design-sec{
-  background-color: #eee;
+  background-color: #F3F5F9;
   text-align: center;
 }
 .bl-carousel-container{
@@ -254,7 +254,7 @@ height: 500px;
   width: 50px;
 }
 .bl-table-container .row .col-xs-12 ul li:nth-child(2){
-  color: #eee;
+  color: #F3F5F9;
   margin-left: 30px;
 }
 .bl-table-container .row .col-xs-12 ul:last-child{
@@ -296,7 +296,7 @@ margin-top:70px;
 }
 .carousel-inner .item{
   max-width: 500px;
-  max-height: 500px;
+  min-height: 300px;
   margin: auto;
   margin-bottom: 30px;
   background-color: #fff;
@@ -402,5 +402,22 @@ color: #fff;
   padding: 20px 2px 20px 20px;
   border-radius: 10px;
   display: inline-block;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .fish-helper{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .fish-helper{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+  }
 }
 /* FOOTER SECTION */
