@@ -71,7 +71,7 @@
  background-position: center;
 }
 .bl-jumbotron{
-  padding: 70px 0px;
+  padding: 70px inherit;
 }
 .bl-jumbotron h1{
   font-size: 60px;
