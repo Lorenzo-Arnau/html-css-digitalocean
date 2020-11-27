@@ -11,6 +11,18 @@
   display: table;
   clear: both;
 }
+.colored-dark-blue{
+  color: #031C4E;
+}
+.colored-light-blue{
+  color: #006AFF;
+}
+.colored-light-grey{
+  color: #757575;
+}
+.bl-strong{
+  font-weight: bold;
+}
 /* /Utility class */
 
 /* navbar style */
@@ -76,12 +88,10 @@
 .bl-jumbotron h1{
   font-size: 60px;
   color: #fff;
-  font-weight: bold;
 }
 .bl-jumbotron p{
   font-size: 25px;
   color: #bbcdff;
-  font-weight: bold;
 }
 .bl-log-in{
   width: 95%;
@@ -107,7 +117,6 @@
 }
 .form-group .bl-sing-in-btn:last-child{
   box-shadow: 1px 1px 1px #000;
-  color: #757575;
   text-align: center;
   position: relative;
 }
@@ -126,17 +135,12 @@
 }
 .bl-log-in h2{
   padding-top: 20px;
-  color: #031C4E;
-  font-weight: bold;
 }
 .bl-subtitle{
   font-size: 30px;
-  color: #006AFF;
-  font-weight: bold;
 }
 .bl-terms{
   line-height: 40px;
-  color: #031C4E;
   font-size: 10px;
 }
 
@@ -162,15 +166,12 @@
  }
  .bl-sponsor-container h4{
   padding: 50px 0px;
-  color: #7C879F;
  }
  .bl-sponsor-container .row:last-child div{
   padding: 40px 0px;
  }
  .bl-sponsor-container .row:last-child a{
   font-size: 18px;
-  color: #006AFF;
-  font-weight: bold;
  }
 /* /Sponsor section style */
 
@@ -187,15 +188,9 @@
 }
 .bl-main-head h1{
   padding-bottom: 20px;
-  color: #031C4E;
-  font-weight: bold;
-}
-.bl-main-head h4{
-  color: #5C6A88;
-  font-weight: bold;
 }
 .bl-sector{
-  height: 200px;
+  min-height: 200px;
   margin: 30px 0px;
 }
 .bl-sector-container ul{
@@ -206,24 +201,16 @@
   margin-bottom: 50px;
 }
 .bl-sector-container ul li{
-  padding: 5px 0px;
+  padding: 5px 10px;
   text-align: left;
   list-style: none;
   font-size: 20px;
-  color: #75809A;
-}
-.bl-sector h4{
-  color: #031C4E;
-  font-weight: bold;
 }
 .bl-sector p{
-  color: #75809A;
   font-weight: 500;
   font-size: 16px;
 }
 .bl-sector span a{
-  color: #006AFF;
-  font-weight: 600;
   font-size: 16px;
 }
 .bl-main-design{
@@ -242,21 +229,19 @@ height: 500px;
 }
 .bl-carousel-container i{
   font-size: 60px;
-  color: #031C4E;
-  font-weight: bold;
 }
 .bl-carousel-container i:hover{
   color: #006AFF;
 }
-.bl-spot i{
-  color: #006AFF;
+/* TODO: after pallini */
+
+.bl-spot i:hover i {
+  display:none
 }
-.bl-spot i:hover{
-  background-color: #006AFF;
-  border-radius: 50%;
-}
-.bl-design-sec h4{
-  color: #031C4E;
+.bl-spot i:hover:before {
+  content:"\2022";
+  height: 50px;
+  font-size: 50px;
 }
 /* TABELLE sec */
 .bl-table-container{
@@ -267,7 +252,6 @@ height: 500px;
 }
 .bl-table-container .row .col-xs-12 ul li:first-child{
   color: #fff;
-  font-weight: 600;
   width: 50px;
 }
 .bl-table-container .row .col-xs-12 ul li:nth-child(2){
@@ -308,68 +292,36 @@ margin-top:70px;
 /* TABELLE sec */
 
 /* SECONDO CAROUSEL */
-.skip-button{
- float: left;
- width: 15%;
- line-height: 400px;
- color: #031C4E;
-}
-.skip-button:hover{
- color:  #006AFF;
-}
-.right {
- text-align: right;
-}
-.bl-center-content{
-  float: left;
-  background-color: #fff;
-  padding: 50px 0px;
+#myCarousel{
   text-align: center;
-  width: 70%;
 }
-.second-carousel{
-  background-color: #eee;
-}
-.bl-center-content h5:first-of-type{
-  color:#031C4E;
-}
-.bl-center-content h4{
-  color:#75809A;
-}
-.bl-center-content span a{
-  color:#006AFF;
-}
-div.bl-spot{
-  width: 80px;
+.carousel-inner .item{
+  max-width: 500px;
+  max-height: 500px;
   margin: auto;
+  margin-bottom: 30px;
+  background-color: #fff;
 }
-.skip-button{
-  font-size: 55px;
-  font-weight: bold;
+.carousel-inner > .item > img{
+  max-height: 30px;
+  margin: 40px 0px;
+  display: inline;
 }
-.bl-center-content img{
-  height: 50px;
-  margin-bottom: 20px;
+.carousel-inner > .item > span  a{
+  font-size: 16px;
 }
-.bl-head-carousel{
+.carousel-inner,.second-carousel{
   background-color: #eee;
 }
-.pre-footer{
-  background-color: #015BFF;
-  text-align: center;
+.second-carousel h1{
+text-align: center;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 20px;
 }
-.pre-footer h2{
-  color: #fff;
-  font-weight: bold;
-  padding-top: 40px;
-  margin-top: 0;
+.carousel-control.right,.carousel-control.left{
+  background-image: none;
 }
-.pre-footer a{
-  color: #015BFF;
-  background-color: #fff;
-  margin-bottom: 30px
-}
-
 /* SECONDO CAROUSEL */
 @media and (min-width: 769px){
 
@@ -391,12 +343,26 @@ div.bl-spot{
   .bl-carousel-container i{
     font-size: 50px;
   }
-  .bl-center-content img{
-    height: 20px;
+  .bl-second-carousel img{
+    max-height: 20px;
   }
 }
 /* /main section */
 /* FOOTER SECTION */
+.pre-footer{
+  background-color: #015BFF;
+  text-align: center;
+}
+.pre-footer h2{
+  color: #fff;
+  font-weight: bold;
+  padding-top: 40px;
+  margin-top: 0;
+}
+.pre-footer a{
+  background-color: #fff;
+  margin-bottom: 30px
+}
 footer{
   background-color:#031C4E;
 }
