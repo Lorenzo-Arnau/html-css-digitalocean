@@ -1,15 +1,10 @@
 /* Utility class */
 .bl-container-full{
-  width: 100%;
+  max-width: 100%;
 }
 .bl-container-centred{
   width: 80%;
   margin: auto;
-}
-.clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 .colored-dark-blue{
   color: #031C4E;
@@ -31,7 +26,7 @@
   background-color: #fff;
   margin-bottom: 0;
 }
-.bl-navbar .colored,.bl-navbar.navbar-default .navbar-nav>li>a{
+.bl-navbar.navbar-default .navbar-nav>li>a{
   color: #031C4E;
   font-weight: bold;
 }
@@ -56,10 +51,6 @@
   top: 10px;
   padding: 3px 8px;
   border-radius: 10px;
-}
-.bl-button a{
-  color: #006AFF;
-  font-weight: bold;
 }
 .bl-nav-left{
   padding-left: 40px;
@@ -296,6 +287,11 @@ margin-top:70px;
 /* SECONDO CAROUSEL */
 #myCarousel{
   text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.scnd-carousel-bg{
+  background-color:#eee;
 }
 .carousel-inner .item{
   max-width: 500px;
@@ -400,13 +396,18 @@ color: #fff;
 .fish-img{
   vertical-align: middle;
 }
+.fish-helper:hover .fish-say,.fish-helper:hover .dialogue-arrow{
+  display: inline-block;
+}
 .fish-say{
   background-color: #fff;
   padding: 20px 2px 20px 20px;
   border-radius: 10px;
-  display: inline-block;
+  display: none;
 }
-
+.dialogue-arrow{
+    display: none;
+}
 @media (min-width: 481px) and (max-width: 768px) {
 
   .fish-helper{
