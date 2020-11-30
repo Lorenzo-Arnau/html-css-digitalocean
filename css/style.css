@@ -298,7 +298,7 @@ margin-top:70px;
   background-color: #fff;
 }
 .carousel-inner > .item > img{
-  max-height: 30px;
+  max-height: 40px;
   margin: 40px 0px;
   display: inline;
 }
@@ -329,6 +329,10 @@ padding-bottom: 20px;
   .bl-carousel-container img{
     height: 400px;
   }
+  #myCarousel{
+    width: 100%;
+  }
+
 }
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -340,6 +344,9 @@ padding-bottom: 20px;
   }
   .bl-second-carousel img{
     max-height: 20px;
+  }
+  .carousel-inner > .item > img{
+    max-height: 30px;
   }
 }
 /* /main section */
