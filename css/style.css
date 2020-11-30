@@ -93,7 +93,6 @@
   padding-bottom: 70px;
 }
 .bl-jumbotron h1{
-  font-size: 60px;
   color: #fff;
 }
 .bl-jumbotron p{
@@ -219,7 +218,7 @@
 .bl-carousel-container img{
 height: 500px;
 }
-.bl-carousel-container i{
+.bl-carousel-container i,.bl-jumbotron h1{
   font-size: 60px;
 }
 .bl-carousel-container i:hover{
