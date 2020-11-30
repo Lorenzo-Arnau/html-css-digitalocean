@@ -94,6 +94,7 @@
 }
 .bl-jumbotron h1{
   color: #fff;
+  font-size: 60px;
 }
 .bl-jumbotron p{
   font-size: 25px;
@@ -218,7 +219,7 @@
 .bl-carousel-container img{
 height: 500px;
 }
-.bl-carousel-container i,.bl-jumbotron h1{
+.bl-carousel-container i{
   font-size: 60px;
 }
 .bl-carousel-container i:hover{
