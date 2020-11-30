@@ -31,6 +31,10 @@
 .bl-main-head h1{
   padding-bottom: 20px;
 }
+a:hover,a:active,a:focus{
+  text-decoration: none;
+  color: #006AFF;
+}
 /* /Utility class */
 
 /* navbar style */
