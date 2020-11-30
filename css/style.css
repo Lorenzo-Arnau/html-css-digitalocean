@@ -1,4 +1,7 @@
 /* Utility class */
+*{
+  font-family: 'Roboto', sans-serif;
+}
 .bl-container-full{
   max-width: 100%;
 }
