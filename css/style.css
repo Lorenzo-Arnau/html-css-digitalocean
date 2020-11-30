@@ -224,7 +224,7 @@ height: 500px;
 .bl-carousel-container i:hover{
   color: #006AFF;
 }
-/* TODO: after pallini */
+/* after pallini */
 
 .bl-spot i:hover i {
   display:none
@@ -380,6 +380,7 @@ footer{
   position: fixed;
   bottom: 10px;
   right: 0px;
+  z-index: 1001;
 }
 .fish-helper i{
 font-size: 40px;
