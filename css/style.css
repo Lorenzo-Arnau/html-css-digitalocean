@@ -18,6 +18,19 @@
 .bl-strong{
   font-weight: bold;
 }
+.bl-main{
+  width: 100%;
+  padding:40px 0px;
+}
+.bl-main-head{
+  padding-bottom: 20px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+.bl-main-head h1{
+  padding-bottom: 20px;
+}
 /* /Utility class */
 
 /* navbar style */
@@ -102,7 +115,6 @@
 .bl-sing-in-btn{
   width: 100%;
   margin-bottom: 5px;
-  font-weight: bold;
   text-align: center;
 }
 .form-group .bl-sing-in-btn:first-child{
@@ -170,19 +182,6 @@
 /* /Sponsor section style */
 
 /* main section */
-.bl-main{
-  width: 100%;
-  padding:40px 0px;
-}
-.bl-main-head{
-  padding-bottom: 20px;
-  text-align: center;
-  width: 90%;
-  margin: auto;
-}
-.bl-main-head h1{
-  padding-bottom: 20px;
-}
 .bl-sector{
   height: 200px;
   margin: 30px 0px;
@@ -202,9 +201,8 @@
 }
 .bl-sector p{
   font-weight: 500;
-  font-size: 16px;
 }
-.bl-sector span a{
+.bl-sector span a,.bl-sector p{
   font-size: 16px;
 }
 .bl-main-design{
@@ -353,7 +351,6 @@ padding-bottom: 20px;
 }
 .pre-footer h2{
   color: #fff;
-  font-weight: bold;
   padding-top: 40px;
   margin-top: 0;
 }
@@ -376,7 +373,6 @@ footer{
   padding:0px 5px;
 }
 .footer-sec ul li.frst-of-row{
-  font-weight: bold;
   color: #fff;
   margin-top: 20px;
   font-size: 14px;
