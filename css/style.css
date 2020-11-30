@@ -216,6 +216,7 @@ a:hover,a:active,a:focus{
   background-color: #F3F5F9;
   text-align: center;
 }
+/* first carousel */
 .bl-carousel-container{
  margin:0 auto;
  text-align: center;
@@ -238,6 +239,7 @@ height: 500px;
   font: normal normal normal 14px/1 FontAwesome;
   content: "\f111";
 }
+/* first carousel */
 /* TABELLE sec */
 .bl-table-container{
   background-image: url("../img/bg-map.svg");
@@ -328,6 +330,10 @@ padding-bottom: 20px;
   .bl-carousel-container img{
     height: 500px;
   }
+  .bl-carousel-container i{
+    padding: 10px;
+  }
+
 }
 @media (min-width: 481px) and (max-width: 768px) {
 
@@ -336,6 +342,9 @@ padding-bottom: 20px;
   }
   #myCarousel{
     width: 100%;
+  }
+  .bl-carousel-container i{
+    padding: 10px;
   }
 
 }
